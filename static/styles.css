@@ -1,0 +1,55 @@
+.uppercase-input {
+    text-transform: uppercase;
+}
+
+.uppercase-input::placeholder {
+    text-transform: none;
+}
+
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+h1, h3 {
+    color: #E0E0E0;
+}
+
+input.form-control,
+select.form-select {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    border: 1px solid #333;
+}
+
+input.form-control:focus,
+select.form-select:focus {
+    border-color: #42A5F5;
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+}
+
+.btn-primary {
+    background-color: #1E88E5;
+    border-color: #1E88E5;
+}
+
+.btn-primary:hover {
+    background-color: #1565C0;
+    border-color: #1565C0;
+}
+
+.bg-dark {
+    background-color: #1E1E1E !important;
+    border-radius: 10px;
+}
+
+canvas {
+    background-color: #121212;
+}
+
+select option {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+}
