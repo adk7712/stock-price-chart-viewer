@@ -38,6 +38,6 @@ MIT License
 
 ## Credits
 
-- [Chart.js](https://www.chartjs.org/)
-- [yfinance](https://github.com/ranaroussi/yfinance)
-- [Bootstrap](https://getbootstrap.com/)
+- Chart.js
+- yfinance
+- Bootstrap
