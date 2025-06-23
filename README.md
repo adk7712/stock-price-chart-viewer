@@ -1,4 +1,4 @@
-# 📈 Stock Chart Viewer
+# Stock Chart Viewer
 #### Video Demo: <url>
 #### Description:
 **Stock Chart Viewer** is a simple web app that allows you to view interactive stock price charts for different time periods. Built using Flask, Chart.js, and Yahoo Finance data, the app provides a clean UI to visualize trends for any publicly traded company.
@@ -7,7 +7,7 @@
 
 <img src="docs/preview.png" alt="Preview of Price Chart Viewer" >
 
-## 🚀 Features
+## Features
 
 - Search for any stock by symbol (e.g., `AAPL`, `GOOG`, `MSFT`)
 - View charts over various time ranges:
@@ -16,7 +16,7 @@
 - Sleek dark mode interface
 
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Backend**: Python, Flask
 - **Frontend**: HTML5, Bootstrap 5, Chart.js
@@ -24,19 +24,19 @@
 
 
 
-## 💡 TODO / Improvements
+## TODO / Improvements
 
 - Add candlestick chart option
 - Add volume indicators
 - Add historical news data per date
 - Deploy to a cloud platform (Render, Vercel, etc.)
 
-## 📄 License
+## License
 
 MIT License
 
 
-## 🙌 Credits
+## Credits
 
 - [Chart.js](https://www.chartjs.org/)
 - [yfinance](https://github.com/ranaroussi/yfinance)
