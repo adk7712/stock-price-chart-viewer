@@ -14,13 +14,21 @@
 
 ## Features
 
-- Stock Lookup: Search by stock ticker (e.g., `AAPL`, `GOOG`, `MSFT`) to fetch real-time market data.
-- Time Period Selection: Choose from a wide range of periods to analyze stock performance:
+- Search and view data for any publicly traded stock using its ticker symbol.
+- Select from a wide range of historical time periods:
   - 1 Day, 1 Week, 1 Month, 3 Months, 6 Months, 1 Year, 2 Years, 5 Years, 10 Years, Max
-- Interactive Charts: Smooth and responsive line charts powered by Chart.js.
-- Dark Mode UI: A modern and sleek dark-themed interface for better readability.
-- Auto-adjusted Granularity: Chart interval adapts to selected period (e.g., minute-level for 1 day, daily for years).
-- Fast Loading: Minimal and optimized backend for quick data fetching and rendering.
+- Responsive line charts rendered using Chart.js.
+- Auto-selected granularity based on the time period (e.g., minute data for recent trends, weekly/monthly data for longer ranges).
+- Clean dark mode user interface.
+- Input validation and error handling for unknown or invalid stock symbols.
+
+---
+
+## Use Cases
+
+- Quickly analyze recent trends in stock prices.
+- Compare price movements across different periods.
+- Lightweight alternative to complex financial software.
 
 ---
 
@@ -65,6 +73,14 @@ flask run
 - Add historical news data per date
 - Deploy to a cloud platform (Render, Vercel, etc.)
 
+## Contributing
+
+Contributions are welcome! Feel free to:
+
+- Open issues for bugs or feature requests
+- Submit pull requests for improvements or new features
+- Fork and modify the code for personal use
+
 ## License
 
 MIT License
@@ -75,3 +91,9 @@ MIT License
 - Chart.js
 - yfinance
 - Bootstrap
+
+
+## Feedback
+
+Suggestions, bug reports, and feature ideas are always welcome.
+If you find this project useful, consider starring the repository or sharing it with others.
